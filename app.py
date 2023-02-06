@@ -238,6 +238,7 @@ school_fig.update_yaxes(showline=True, linewidth=1, linecolor='black', showgrid=
 school_fig.update_traces(hovertemplate='<extra>%{y}</extra>')
 
 app = dash.Dash(__name__)
+server = app.server
 
 ## FF ##
 
