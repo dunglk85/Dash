@@ -238,7 +238,7 @@ school_fig.update_yaxes(showline=True, linewidth=1, linecolor='black', showgrid=
 school_fig.update_traces(hovertemplate='<extra>%{y}</extra>')
 
 app = dash.Dash(__name__)
-server = app.server
+# server = app.server
 
 ## FF ##
 
@@ -597,5 +597,5 @@ def update_graph(yaxis_type):
 
 server = app.server
 
-if __name__ == "__main__":
-    app.run_server(debug=True)
+# if __name__ == "__main__":
+#     app.run_server(debug=True)
